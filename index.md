@@ -32,8 +32,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/dineshbhagat/dineshbhagat/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### [Repositories]
-(https://github.com/dineshbhagat)
+### [Repositories](https://github.com/dineshbhagat)
 [Spring-boot-jpa](https://github.com/dineshbhagat/spring-boot-web-jpa)
 
 
