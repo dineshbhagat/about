@@ -1,6 +1,5 @@
 baseURL = "https://dineshbhagat.github.io/about/"
 languageCode = "en-us"
-theme = "sada"
 
 [params]
     title = "Dinesh Bhagat"
