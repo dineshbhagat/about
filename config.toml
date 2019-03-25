@@ -20,13 +20,13 @@ languageCode = "en-us"
         [[params.social.list]]
         class = "fab"
         icon = "fa-linkedin-in"
-        url = "www.linkedin.com"
+        url = "https://www.linkedin.com/in/dineshbhagat"
         title = "LinkedIn"
 
         [[params.social.list]]
         class = "fab"
-        icon = "https://github.com/dineshbhagat"
-        url = "#"
+        icon = "fa-github"
+        url = "https://github.com/dineshbhagat"
         title = "GitHub"
 	
 
