@@ -1,0 +1,129 @@
+baseURL = "https://dineshbhagat.github.io/about/"
+languageCode = "en-us"
+theme = "sada"
+
+[params]
+    title = "Dinesh Bhagat"
+    author = "Dinesh Bhagat"
+    description = ""
+    copyright = ""
+    copyright_link = ""
+
+    # Profile section
+    [params.profile]
+        name = "Dinesh Bhagat"
+        photo = "a.png"
+
+    # Section for links to social websites
+    [params.social]
+        title = "Links"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "fa-linkedin-in"
+        url = "www.linkedin.com"
+        title = "LinkedIn"
+
+        [[params.social.list]]
+        class = "fab"
+        icon = "https://github.com/dineshbhagat"
+        url = "#"
+        title = "GitHub"
+	
+
+    # Education section
+    [params.education]
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Masters in Degree 1"
+        college = "University Number 1"
+        dates = "2016 - 2018"
+        thesis_title = "Title of the dissertation"
+        thesis_link = "#"
+
+        [[params.education.list]]
+        degree = "Bachelors in Degree 2"
+        college = "University Number 2"
+        dates = "2010 - 2014"
+
+    # Languages section
+    [params.language]
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "English"
+        level = "Fluent"
+				
+        [[params.language.list]]
+        language = "Bird"
+        level = "Basic"
+
+    # Interests section
+    [params.hobbies]
+        title = "Hobbies"
+
+        [[params.hobbies.list]]
+        interest = "Travelling"
+		
+		[[params.hobbies.list]]
+        interest = "Music"
+
+        [[params.hobbies.list]]
+        interest = "Flying"
+
+        [[params.hobbies.list]]
+        interest = "Baking"
+
+    [params.aboutme]
+        description = "Software engineer"
+
+    # Experiences section
+    [params.experiences]
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Sr. Software Engineer"
+        dates = "2018 - *Present*"
+		link = "https://www.target.com"
+        company = "Target"
+
+        [[params.jobs.list]]
+        position = "SDE-2"
+        dates = "2016 - 2018"
+		link = "https://www.olacabs.com/"
+        company = "Olacabs"
+        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    # Projects section
+    [params.projects]
+        icon = "fa-project-diagram"
+        title = "Projects"
+
+        [[params.projects.list]]
+        title = "Awesome Project 1"
+        url = "#"
+        description = "Description of the *awesome* project 1"
+		
+		[[params.projects.list]]
+        title = "Awesome Project 2"
+        url = "#"
+        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+    # Skills section
+    [params.skills]
+        icon = "fa-cogs"
+        title = "Skills"
+
+        [[params.skills.list]]
+        skill = "Java, Spring, MySql"
+        skillrating = 95 # out of 100
+                
+        [[params.skills.list]]
+        skill = "Python"
+        skillrating = 20
+		
+        [[params.skills.list]]
+        skill = ""
+        skillrating = 80
