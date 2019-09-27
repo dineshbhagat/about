@@ -76,6 +76,13 @@ languageCode = "en-us"
         company = "Olacabs"
         details = "Brief description of the `work` done. Lorem ipsum."
 
+        [[params.jobs.list]]
+        position = "SDE-2"
+        dates = "2013 - 2016"
+		link = "https://www.nokia.com/networks/"
+        company = "Nokia Networks"
+        details = "Brief description of the `work` done. Lorem ipsum."
+	
     # Projects section
     [params.projects]
         icon = "fa-project-diagram"
@@ -86,10 +93,15 @@ languageCode = "en-us"
         url = "#"
         description = "Description of the *awesome* project 1"
 		
-		[[params.projects.list]]
+ 	[[params.projects.list]]
         title = "Awesome Project 2"
         url = "#"
         description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet."
+	    	[[[params.projects.list]]]
+        	title = "Awesome Project 2"
+        	url = "#"
+        	description = "Description of the **awesome** project 3. Lorem ipsum dolor sit amet."
+
 
     # Skills section
     [params.skills]
