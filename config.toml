@@ -97,10 +97,6 @@ languageCode = "en-us"
         title = "Awesome Project 2"
         url = "#"
         description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet."
-	    	[[[params.projects.list]]]
-        	title = "Awesome Project 2"
-        	url = "#"
-        	description = "Description of the **awesome** project 3. Lorem ipsum dolor sit amet."
 
 
     # Skills section
