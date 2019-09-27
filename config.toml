@@ -37,14 +37,14 @@ languageCode = "en-us"
         [[params.education.list]]
         degree = "M.Tech"
         college = "VTU"
-        dates = "2016 - 2018"
+        dates = "2011 - 2013"
         thesis_title = "Title of the dissertation"
         thesis_link = "#"
 
         [[params.education.list]]
         degree = "B.E."
         college = "Mumbai University"
-        dates = "2010 - 2014"
+        dates = "2006 - 2010"
 
     # Languages section
     [params.language]
