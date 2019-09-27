@@ -35,15 +35,15 @@ languageCode = "en-us"
         title = "Education"
 
         [[params.education.list]]
-        degree = "Masters in Degree 1"
-        college = "University Number 1"
+        degree = "M.Tech"
+        college = "VTU"
         dates = "2016 - 2018"
         thesis_title = "Title of the dissertation"
         thesis_link = "#"
 
         [[params.education.list]]
-        degree = "Bachelors in Degree 2"
-        college = "University Number 2"
+        degree = "B.E."
+        college = "Mumbai University"
         dates = "2010 - 2014"
 
     # Languages section
@@ -53,26 +53,7 @@ languageCode = "en-us"
         [[params.language.list]]
         language = "English"
         level = "Fluent"
-				
-        [[params.language.list]]
-        language = "Bird"
-        level = "Basic"
 
-    # Interests section
-    [params.hobbies]
-        title = "Hobbies"
-
-        [[params.hobbies.list]]
-        interest = "Travelling"
-		
-		[[params.hobbies.list]]
-        interest = "Music"
-
-        [[params.hobbies.list]]
-        interest = "Flying"
-
-        [[params.hobbies.list]]
-        interest = "Baking"
 
     [params.aboutme]
         description = "Software engineer"
@@ -93,7 +74,7 @@ languageCode = "en-us"
         dates = "2016 - 2018"
 		link = "https://www.olacabs.com/"
         company = "Olacabs"
-        details = "Brief description of the `work` done. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        details = "Brief description of the `work` done. Lorem ipsum."
 
     # Projects section
     [params.projects]
@@ -108,7 +89,7 @@ languageCode = "en-us"
 		[[params.projects.list]]
         title = "Awesome Project 2"
         url = "#"
-        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        description = "Description of the **awesome** project 2. Lorem ipsum dolor sit amet."
 
     # Skills section
     [params.skills]
@@ -116,13 +97,13 @@ languageCode = "en-us"
         title = "Skills"
 
         [[params.skills.list]]
-        skill = "Java, Spring, MySql"
-        skillrating = 95 # out of 100
+        skill = "Java related technologies, SQL"
+        skillrating = 90 # out of 100
                 
         [[params.skills.list]]
         skill = "Python"
         skillrating = 20
 		
         [[params.skills.list]]
-        skill = ""
-        skillrating = 80
+        skill = "Golang"
+        skillrating = 20
